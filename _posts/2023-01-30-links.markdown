@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quelques liens utiles pour bien démarrer"
-date:   2023-01-30 05:08:59 -0600
+date:   2023-01-30 05:10:59 -0600
 categories: welcome
 ---
 
