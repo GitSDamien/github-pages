@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Ce projet utilise Jekyll, un générateur de sites web statiques, avec le support de Github Pages. 
   Il permet de créer et héberger facilement des sites web à partir de fichiers markdown et de modèles HTML. 
   Le développement se fait à l'aide de Docker, permettant une exécution en mode interactif et une mise en production rapide sur Github.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/github-pages" # the subpath of your site, e.g. /blog
 url: "https://gitsdamien.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  GitSDamien
