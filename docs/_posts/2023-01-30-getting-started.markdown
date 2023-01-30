@@ -9,7 +9,7 @@ Il existe des images Docker préparées pour GitHub Pages. Vous pouvez utiliser 
 
 Voici un exemple de commande docker run pour utiliser l'image Jekyll :
 ```
-docker run --rm -v "/$PWD":/srv/jekyll -p 4000:4000 jekyll/jekyll:4.2.0 sh -c "bundle install && bundle exec jekyll serve --host=0.0.0.0"
+docker run --rm -v "/$PWD/docs":/srv/jekyll -p 4000:4000 jekyll/jekyll:4.2.0 sh -c "bundle install && bundle exec jekyll serve --host=0.0.0.0"
 ```
 
 Cette commande monte le répertoire actuel (`"/$PWD"` sur windows et `$(pwd)` pour le reste) sur le chemin `/srv/jekyll` dans le conteneur (répertoire de travail de Jekyll), ce qui vous permet de travailler sur votre projet sur votre ordinateur local tout en exécutant des commandes dans le conteneur. Le paramètre `--rm` indique à Docker de supprimer le conteneur une fois que vous arrêtez le serveur Jekyll.
@@ -18,7 +18,7 @@ Vous pouvez maintenant accéder au serveur Jekyll en utilisant un navigateur Web
 
 Pour entrer en mode interactif dans un conteneur Docker, vous pouvez utiliser la commande docker run avec l'option -it :
 ```
-docker run --rm -it -v "/$PWD":/srv/jekyll -p 4000:4000 jekyll/jekyll:4.2.0 bash
+docker run --rm -it -v "/$PWD/docs":/srv/jekyll -p 4000:4000 jekyll/jekyll:4.2.0 bash
 ```
 
 Cela vous permettra par exemple de relancer le serveur après une modification. Une fois à l'intérieur, vous pouvez exécuter vos commandes (ex. installe les composants et démarre le serveur):
