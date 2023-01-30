@@ -1,3 +1,21 @@
-theme: jekyll-theme-minimal
-title: GitSDamien's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Well, that's kind of interesting
+email: leopold.niklas@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A blog about software development
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://morotsman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username:
+github_username:  morotsman
+
+google_analytics: UA-171623258-1
+linkedin_username: niklas-leopold-a359293
+author:             Niklas Leopold
+
+# Build settings
+markdown:           kramdown
+paginate:           10
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
