@@ -1,0 +1,13 @@
+---
+layout: page
+title: A propos
+permalink: /about/
+---
+
+[Jekyll](https://jekyllrb.com/) est un générateur de site statique open-source qui vous permet de créer facilement des sites web sans avoir à vous soucier de la gestion du serveur. Il est populaire pour son utilisation sur [GitHub Pages](https://pages.github.com/), où les utilisateurs peuvent héberger leur site web gratuitement.
+
+[Docker](https://www.docker.com/) quant à lui est une plateforme de conteneurisation qui vous permet de déployer votre application dans un environnement isolé et reproductible sur n'importe quelle machine. En utilisant Docker pour votre projet Jekyll, vous pouvez être sûr que votre site sera exécuté de la même manière sur toutes les machines, ce qui est particulièrement utile pour les déploiements en production.
+
+Avec ce projet, vous pourrez démarrer rapidement un site Jekyll en utilisant un conteneur Docker pour exécuter toutes les commandes nécessaires. Vous pourrez ajouter facilement des plugins Jekyll en utilisant les commandes de gestion de paquets de votre choix. De plus, vous pourrez développer votre site en toute sécurité en travaillant sur vos fichiers locaux tout en visualisant les modifications en temps réel sur votre navigateur web.
+
+Pour conclure, ce projet est maintenant disponible sur Github pour vous permettre de le consulter et d'y contribuer. N'hésitez pas à visiter notre répertoire sur [My GitHub Pages](https://github.com/GitSDamien/github-pages) pour en savoir plus sur notre travail et pour voir comment vous pouvez aider. Nous espérons que notre projet vous sera utile et nous sommes impatients de voir ce que vous en ferez.

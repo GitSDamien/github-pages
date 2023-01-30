@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Quelques liens utiles pour bien démarrer"
+date:   2023-01-30 05:08:59 -0600
+categories: welcome
+---
+
+- Documentation officielle de GitHub Pages : [https://docs.github.com/fr/pages/getting-started-with-github-pages](https://docs.github.com/fr/pages/getting-started-with-github-pages)
+- Guide de démarrage rapide de Jekyll : [https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)
+- Tutoriel vidéo sur GitHub Pages et Jekyll : [https://www.youtube.com/watch?v=T1itpPvFWHI](https://www.youtube.com/watch?v=T1itpPvFWHI)
+- Documentation sur les thèmes Jekyll : [https://jekyllrb.com/docs/themes/](https://jekyllrb.com/docs/themes/)
+- Collection de thèmes pour Jekyll : [https://jekyllthemes.io/](https://jekyllthemes.io/)
+
+Ces ressources vous aideront à comprendre les bases de GitHub Pages et de Jekyll, à créer votre propre site et à personnaliser son apparence.
+
